@@ -1,2 +1,18 @@
-# Shopping_List
-A luxurious glass-morphism shopping list built with pure HTML, CSS, and JavaScript. No frameworks, no build step — just a beautiful list that saves to your browser. html  css  javascript  vanilla-js  glassmorphism  shopping-list  ui-design  localStorage  frontend
+# 🛒 Maison — Shopping List
+
+A luxurious glass-morphism shopping list. Pure HTML, CSS, and JavaScript — no frameworks, no build step.
+
+## ✨ Features
+- Add, check off, and remove items
+- Saves automatically to your browser (localStorage)
+- Frosted glass UI with paper-card design
+- Fully responsive
+
+## 🚀 Live demo
+https://your-site.netlify.app
+
+## 🛠️ Run locally
+Just open `index.html` in your browser. That's it.
+
+## 📄 License
+MIT
