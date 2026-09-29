@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maison — Liste de Courses</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500&family=Caveat:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class="glass" aria-label="Shopping list">
+  <span class="glass-border"></span>
+  <span class="glass-corner tl"></span>
+  <span class="glass-corner tr"></span>
+  <span class="glass-bottom-glow"></span>
+
+  <header class="header">
+    <p class="eyebrow">Maison de Courses</p>
+    <h1 class="title">Shopping List</h1>
+    <div class="rule"><span class="diamond"></span></div>
+    <p class="subtitle">Curated selections, kept with care.</p>
+  </header>
+
+  <section class="paper">
+
+    <p class="paper-label">~ today's list ~</p>
+    <h2 class="paper-title">Sunday Market</h2>
+    <p class="paper-date" id="date"></p>
+
+    <div class="field">
+      <input id="input" type="text" placeholder="write an item…" autocomplete="off" spellcheck="false">
+      <button id="add" class="add">Add</button>
+    </div>
+
+    <ul id="list" class="list"></ul>
+
+    <footer class="footer">
+      <span id="counter">0 items</span>
+      <button id="clear" class="clear">Clear all</button>
+    </footer>
+
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
